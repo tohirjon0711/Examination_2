@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    position: absolute;
+    height: 1000px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+    background: #FFFFFF;
+}
+
+header{
+    display: inline;
+}
+
+header h1{
+    padding-left: 100px;
+    float: left;
+    font-size: 25px;
+    font-weight: 900;
+}
+header sup{
+    font-weight: normal;
+    background-color: orangered;
+    color: white;
+    padding: 0 5px;
+    border-radius: 60%;
+    font-size: 20px;
+}
+
+header li{
+    float: right;
+    display: inline;
+    padding-right: 50px;
+    padding-top: 15px;
+}
+
+li a{
+    text-decoration: none;
+    color:black;
+}
+
+.demo a{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 50px;
+}
+
+main h1{
+    font-size: 45px;
+    font-weight: normal;
+    width: 500px;
+    padding-left: 100px;
+    padding-top: 200px;
+}
+
+main p{
+    padding-left: 100px;
+    width: 500px;
+    font-size: 20px;
+}
+
+main a{
+    text-decoration: none;
+    color: white;
+}
+
+.img img{
+    width: 600px;
+    border-radius: 10px;
+}
+
+.img{
+    display: inline;
+    float: right;
+    margin-right: 100px;
+    margin-top: -8cm;
+}
+
+footer{
+    margin-top: 200px;
+    margin-left: 100px;
+    font-size: 40px;
+    color: #777;
+    word-spacing: 58px;
+}
+
+.main2{
+    margin-left: 100px;
+    display: inline-block;
+    margin-right: 100px;
+    margin-top: 200px;
+    height: 500px;
+}
+
+.main2 img{
+    border-radius: 10px;
+}
+
+ .main2 h1{
+     font-size: 35px;
+     width: 400px;
+     float: right;
+     margin-left: 160px;
+ }
+
+ .main2 p{
+     font-weight: normal;
+     font-size: 20px;
+     line-height: 30px;
+     margin-top: 30px;
+ }
+
+ .col{
+     font-weight: 700;
+     display: inline-block;
+     float: right;
+     margin-left: 20px;
+     background-color: rgb(238, 235, 235);
+     text-align: center;
+     width: 120px;
+     height: 100px;
+     padding-top: 35px;
+     border-radius: 5px;
+     word-spacing: 10px;
+     margin-top: -2cm;
+ }
+
+ .img2{
+     margin-top: 0;
+ }
